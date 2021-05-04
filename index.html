@@ -24,6 +24,22 @@
     })(window,document,'script','dataLayer','GTM-5MQD9ML');</script> -->
     <!-- End Google Tag Manager -->
 
+    <style>
+        .whatsapp {
+            align-items: center;
+            background: #25d366;
+            border-radius: 4px;
+            padding: 5px 10px;
+            margin-right: 100px;
+            margin-top: 5px;
+            flex-flow: row;
+            color: #ffffff;
+            display: flex;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+
 </head>
 <body>
 
@@ -35,6 +51,10 @@
     <input onclick="buttonClicked(this)" type="button" value="A" class="classeA" style="font-size: 50px; width: 300px; height: 300px;">
     <input onclick="buttonClicked(this)" type="button" value="B" class="classeB" style="font-size: 50px; width: 300px; height: 300px;">
     <input onclick="buttonClicked(this)" type="button" value="C" class="classeC" style="font-size: 50px; width: 300px; height: 300px;">
+
+    <a target="_blank" href="https://api.whatsapp.com/send?phone=5512991099030&amp;text=Ol%C3%A1%2C%20vim%20do%20site%20da%20Claro%20e%20gostaria%20de%20obter%20informa%C3%A7%C3%B5es." class="whatsapp" data-bind="visible: phoneLink, attr: { href: phoneLink }">
+        <img src="whatsapp.svg">
+    </a>
 
     <script>
         function buttonClicked(e) {
